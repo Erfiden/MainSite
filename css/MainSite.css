@@ -2,13 +2,61 @@ body {
 	font-family:'Roboto',sans-serif;
 }
 
+#toptwenty {
+	top:0%;
+	left:0%;
+	right:0%;
+	height:20%;
+	position:fixed;
+
+}
+
+a {
+	color:White;
+	text-decoration:none;
+}
+
+a.hover {
+	color:Blue;
+}
+
 #headErf {
 	/* Ewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww on commenting scheme */
-	font-size: 20px;
-	background-color: Silver;
+	font-size: 30px;
+	background-color: Gray;
 	color:Black;
 	left:0px;
 	right:0px;
 	width:100%;
+	top:20%;
+	height:10%;
 	position:fixed;
+}
+
+#actOne {
+	background-image:url(./);
+	background-size:100%;
+	top:30%;
+	height:70%;
+}
+
+#actTwo {
+	background-image:url(./);
+	background-size:100%;
+	top:130%;
+	height:70%;
+}
+
+#actThree {
+	background-image:url(./);
+	background-size:100%;
+	top:230%;
+	height:70%;
+}
+
+#actFour {
+	background-image:url(./);
+	background-size:100%;
+	top:330%;
+	height:70%;
 }
