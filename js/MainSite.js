@@ -1,3 +1,5 @@
+(function() {
+
 //On your marks, Get set....
 $(document).ready(function()){
 
@@ -59,8 +61,8 @@ $(document).ready(function()){
 
 var navigationSensor = function() {
 
-	var slideHomeOffset = $('#slideHome').offset().top - $('#sldeHome').outerHeight()*0.5;
-	var slideGalleryOffset = $('#slideGallery').offset().top - $('#sldeHome').outerHeight()*0.5;
+	var slideHomeOffset = $('#slideHome').offset().top - $('#slideHome').outerHeight()*0.5;
+	var slideGalleryOffset = $('#slideGallery').offset().top - $('#slideGallery').outerHeight()*0.5;
 	var slideAboutOffset = $('#slideAbout').offset().top - $('#slideAbout').outerHeight()*0.5;
 	var slideContactOffset = $('#slideContact').offset().top - $('#slideContact').outerHeight()*0.5;
 	var viewScrollTop = $view.scrollTop();
@@ -88,4 +90,5 @@ var navigationSensor = function() {
 		$('#headErf a').removeClass('active');
 		$('#link-slideContact').addClass('active');
 	}
+}
 }

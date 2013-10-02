@@ -1,6 +1,8 @@
 body {
 	font-family:'Roboto',sans-serif;
 	background-color:Black;
+  margin: 0px;
+  text-decoration:opaque;
 }
 
 #toptwenty {
@@ -37,10 +39,21 @@ a.hover {
 }
 
 #headErf {
-	/* Ewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww on commenting scheme */
 	font-size: 30px;
 	background-color: Gray;
 	color:Black;
+	left:0px;
+	right:0px;
+	width:100%;
+	top:90%;
+	height:10%;
+	position:fixed;
+}
+
+a.#headErf {
+	font-size: 30px;
+	background-color: Gray;
+	color:Red;
 	left:0px;
 	right:0px;
 	width:100%;
@@ -72,22 +85,66 @@ a.hover {
 }
 
 #slideGallery {
-	background-image:url(./);
-	background-size:100%;
-	top:130%;
-	height:70%;
+  background: url(http://backgrounds.picaboo.com/download/1c/c2/1c26856c75f0401e90bc2cedb7423ec1/Solid%20green%20background%20from%20rectangles.jpg) 50% 0 no-repeat fixed; 
+  height: 1000px;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  background-size: 100%;
+
+}
+
+#slideGallery article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+  color: rgb(250,250,250);
+  font-size: 100px;
+  font-weight: 10px;
 }
 
 #slideAbout {
-	background-image:url(./);
-	background-size:100%;
-	top:230%;
-	height:70%;
+  background: url(http://3.bp.blogspot.com/-NNaTQkyjYxI/Tm-dq6vITcI/AAAAAAAAEv8/3qzhBGpKbyY/s1600/solid+red+backgrounds+3.jpg) 50% 0 no-repeat fixed; 
+  height: 1000px;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  background-size: 100%;
+}
+
+#slideAbout article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+  color: rgb(250,250,250);
+  font-size: 100px;
+  font-weight: 10px;
 }
 
 #slideContact {
-	background-image:url(./);
-	background-size:100%;
-	top:330%;
-	height:70%;
+  background: url(http://www.pptback.com/uploads/solid-blue-colors-backgrounds-powerpoint.jpg) 50% 0 no-repeat fixed; 
+  height: 1000px;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  background-size: 100%;
+
+}
+
+#slideContact article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+  color: rgb(250,250,250);
+  font-size: 100px;
+  font-weight: 10px;
 }
