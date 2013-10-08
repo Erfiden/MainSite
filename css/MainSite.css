@@ -65,7 +65,9 @@ a.#headErf {
 #slideHome {
   background: url(http://fc00.deviantart.net/fs36/f/2008/279/b/c/Simple_Blue_II_by_evodesign.png) 50% 0 no-repeat fixed; 
   height: 1000px;  
-  margin: 0 auto; 
+  margin: 0 auto;
+  left:0px;
+  right:0px; 
   width: 100%; 
   position: relative; 
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -79,12 +81,15 @@ a.#headErf {
   text-align: center; 
   top: 150px; 
   width: 100%; 
+  left:0px;
+  right:0px;
   color: rgb(250,250,250);
   font-size: 100px;
   font-weight: 10px;
 }
 
 #slideGallery {
+<<<<<<< HEAD
   background: url(http://backgrounds.picaboo.com/download/1c/c2/1c26856c75f0401e90bc2cedb7423ec1/Solid%20green%20background%20from%20rectangles.jpg) 50% 0 no-repeat fixed; 
   height: 1000px;  
   margin: 0 auto; 
@@ -147,4 +152,30 @@ a.#headErf {
   color: rgb(250,250,250);
   font-size: 100px;
   font-weight: 10px;
+=======
+	background-image:url(./);
+	background-size:100%;
+	top:130%;
+	height:70%;
+	left:0px;
+  	right:0px;
+}
+
+#slideAbout {
+	background-image:url(./);
+	background-size:100%;
+	top:230%;
+	height:70%;
+	left:0px;
+  	right:0px;
+}
+
+#slideContact {
+	background-image:url(./);
+	background-size:100%;
+	top:330%;
+	height:70%;
+	left:0px;
+  	right:0px;
+>>>>>>> Header Initiation
 }
